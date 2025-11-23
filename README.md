@@ -1,8 +1,8 @@
-
 <div align="center">
 
 # 👕 **Clothica — Backend**
-### *REST API for the Clothica clothing marketplace*
+
+### _REST API for the Clothica clothing marketplace_
 
 <img src="https://img.shields.io/badge/license-Apache_2.0-green" />
 <img src="https://img.shields.io/badge/language-JavaScript-yellow" />
@@ -14,8 +14,9 @@
 
 ---
 
-### 🔗 **Frontend Repository:**  
-👉 https://github.com/codingweb123/last-super-project-group-03-front
+### 🔗 **Frontend Repository:**
+
+👉 https://github.com/HannaAssaf/clothica-team-project-frontend
 
 </div>
 
@@ -23,39 +24,39 @@
 
 ## 📍 **About the Project**
 
-**Clothica Backend** is the server-side REST API for the Clothica clothing marketplace.  
+**Clothica Backend** is the server-side REST API for the Clothica clothing marketplace.
 It handles the business logic, database interactions, authentication, and API endpoints for products, users, orders, reviews, and categories.
 
-The backend is built using **Node.js + Express**, **MongoDB**, and **Mongoose**.  
+The backend is built using **Node.js + Express**, **MongoDB**, and **Mongoose**.
 Sessions are stored in MongoDB for authentication. Swagger documentation is available at `/docs`.
 
 ---
 
 ## ✨ **Features**
 
-| Feature | Description |
-|---------|------------|
-| 🔑 Authentication | User registration and login via sessions stored in MongoDB |
-| 🧍 Users | CRUD operations for user profiles |
-| 👕 Products | Create, read, update, delete products |
-| 📦 Orders | Create and view orders |
-| ❤️ Reviews | Add and read product reviews |
-| 🏷 Categories | Organize products by categories |
-| 📊 Validation & Error Handling | Request validation and consistent error responses |
+| Feature                        | Description                                                |
+| ------------------------------ | ---------------------------------------------------------- |
+| 🔑 Authentication              | User registration and login via sessions stored in MongoDB |
+| 🧍 Users                       | CRUD operations for user profiles                          |
+| 👕 Products                    | Create, read, update, delete products                      |
+| 📦 Orders                      | Create and view orders                                     |
+| ❤️ Reviews                     | Add and read product reviews                               |
+| 🏷 Categories                   | Organize products by categories                            |
+| 📊 Validation & Error Handling | Request validation and consistent error responses          |
 
 ---
 
 ## 🏗 **Tech Stack**
 
-| Category | Technology |
-|----------|------------|
-| Framework | **Node.js + Express** |
-| Language | **TypeScript** |
-| Database | **MongoDB** |
-| ORM / ODM | **Mongoose** |
+| Category       | Technology                 |
+| -------------- | -------------------------- |
+| Framework      | **Node.js + Express**      |
+| Language       | **TypeScript**             |
+| Database       | **MongoDB**                |
+| ORM / ODM      | **Mongoose**               |
 | Authentication | Sessions stored in MongoDB |
-| Documentation | **Swagger** (`/docs`) |
-| Code Quality | ESLint, Prettier |
+| Documentation  | **Swagger** (`/docs`)      |
+| Code Quality   | ESLint, Prettier           |
 
 ---
 
@@ -98,7 +99,7 @@ CLOUDINARY_API_SECRET=
 
 ## 🔗 **API Documentation**
 
-Swagger documentation is available at:  
+Swagger documentation is available at:
 
 ```
 http://localhost:<PORT>/docs
@@ -120,7 +121,7 @@ npm install
 
 ### **2️⃣ Set up environment variables**
 
-- Rename `.env.example` to `.env`  
+- Rename `.env.example` to `.env`
 - Configure variables such as `PORT`, `MONGO_URL`, `JWT_SECRET`, etc.
 
 ---
@@ -150,12 +151,12 @@ There are currently no automated tests in the backend.
 
 ## 🧩 **Contribution**
 
-Contributions are welcome!  
+Contributions are welcome!
 
-1. Fork the repository  
-2. Create a new branch (`feature/your-feature` or `bugfix/issue`)  
-3. Make changes  
-4. Submit a pull request with a description of your changes  
+1. Fork the repository
+2. Create a new branch (`feature/your-feature` or `bugfix/issue`)
+3. Make changes
+4. Submit a pull request with a description of your changes
 
 Please follow the existing code structure and style.
 
@@ -169,6 +170,6 @@ This project is licensed under the **Apache 2.0 License**.
 
 <div align="center">
 
-💼 *Built with ❤️ by FlowDevs*
+💼 _Built with ❤️ by FlowDevs_
 
 </div>
