@@ -38,17 +38,13 @@ app.use(
     limit: '100kb',
   }),
 );
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_DOMAIN,
+    credentials: true,
+  })
+);
 
-app.use((req, res, next) => {
-  const IP = (req.headers['x-forwarded-for'] || req.socket.remoteAddress || '')
-    .split(',')[0]
-    .trim();
-  console.log('Request from: ', IP);
-  if (![].includes(IP)) {
-    next();
-  }
-});
 app.use(helmet());
 app.use(logger);
 app.use(cookieParser());
